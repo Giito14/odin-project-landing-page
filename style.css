@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    margin: 0px;
+    background-color: #1f2937;
+}
+a {
+    color: #e5e7e5;
+    font-size: 18px;
+    margin-left: 16px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin-top: 16px;
+    margin-left: 112px;
+    margin-right: 96px;
+}
+.logo {
+    color: #e5e7e5;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
