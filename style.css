@@ -3,6 +3,7 @@ body {
     margin: 0px;
     background-color: #1f2937;
     flex-direction: column;
+    font-family: sans-serif;
 }
 a {
     color: #e5e7e5;
@@ -15,8 +16,8 @@ a {
     align-items: center;
     flex: 1;
     margin-top: 16px;
-    margin-left: 112px;
-    margin-right: 96px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 .logo {
     color: #e5e7e5;
@@ -31,13 +32,15 @@ a {
 .section-2{
     display: flex;
     justify-content: space-between;
-    padding-left: 112px;
-    padding-right: 96px;
+    padding-left: 160px;
+    padding-right: 160px;
     padding-top: 112px;
+    padding-bottom: 112px;
 }
 .section-21{
     display: flex;
     flex-direction: column;
+    margin-right: 24px;
 }
 .section-21.title{
     color: #e5e7e5;
@@ -54,7 +57,34 @@ a {
     width: 110%;
     align-items: center;
 }
-img {
+.section-22img {
     width: 100%;
     height: 90%;
+}
+.button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 8px 2px;
+    border-radius: 12px;
+    width: 20%;
+  }
+.section-3 {
+    background-color: #e5e7e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-3.title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
