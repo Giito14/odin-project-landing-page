@@ -80,6 +80,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 32px;
 }
 .section-3.title {
     font-size: 36px;
@@ -87,4 +88,25 @@ a {
     font-weight: bolder;
     margin-top: 48px;
     margin-bottom: 48px;
+}
+.section-3.images {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.section-3.imgtext {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-3.img {
+    width: 150px; 
+    height: 150px; 
+}
+.imgtext {
+    margin-top: 8px;
 }
