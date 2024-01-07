@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script>
+        function add7(a){
+            return 7+a;
+        }
+        console.log(add7(5));
+
+        function capitalize(string){
+           let firsLetter = string.charAt(0);
+           let restOfString = string.substr(1);
+           
+           return firsLetter.toUpperCase() + restOfString.toLowerCase();
+        }
+        console.log(capitalize("ANIMAL"));
+
+        function lastLetter(string){
+            return string.charAt(string.length - 1);
+        }
+        console.log(lastLetter("Perro"));
+
+    </script>
     <title>Landing Page</title>
 </head>
 <body>
